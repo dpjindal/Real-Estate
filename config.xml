@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="co.in.advocatejindal.RealEstate" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Real-Estate-Lite</name>
+    <description>
+        A Bare Act of Real Estate (Regulation and Development) Act, 2016
+    </description>
+    <author email="jindalinformatics.gmail.com" href="http://advocatejindal.co.in">
+        Jindal Informatics Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+	<plugin name="cordova-plugin-network-information" spec="~1.3.2" />
+	<plugin name="cordova-plugin-console" spec="~1.0.6" />
+	<plugin name="cordova-plugin-device" spec="~1.1.5" />
+	<plugin name="cordova-plugin-file" spec="~4.3.2" />
+	<plugin name="cordova-plugin-file-transfer" spec="~1.6.2" />
+	<plugin name="cordova-plugin-media" spec="~3.0.0" />
+	<access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+	 <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/logo.png" />
+        <icon density="mdpi" src="www/res/icon/android/logo.png" />
+        <icon density="hdpi" src="www/res/icon/android/logo.png" />
+        <icon density="xhdpi" src="www/res/icon/android/logo.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/logo.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/logo.png" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
